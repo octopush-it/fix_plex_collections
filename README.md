@@ -11,6 +11,7 @@ This is a quick script to use plexapi and python to remove collections based on 
        instructions: https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/
 
 Other Options in the script:
+
 MIN_ITEMS = X   #Set to the minimum number of items a collection should have to be valid (kept)
 DRY_RUN = True  #Verify the potential changes to Plex before making them
 LIBRARY_TYPES = ["movie"]. ["show"]. or ["movie", "show"].  Alone will do Movie or TV collections, together does both.
